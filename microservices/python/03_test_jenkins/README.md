@@ -11,8 +11,8 @@ required dependencies (A guide will be provided in class)
 set an environment variable named USERMGT_SETTINGS and check if the variable was created
 
 ```sh
-export USERMGT_SETTINGS=settings/production.py
-echo $USERMGT_SETTINGS
+$ export USERMGT_SETTINGS=settings/production.py
+$ echo $USERMGT_SETTINGS
 ```
 
 ### Useful commands
@@ -20,25 +20,25 @@ echo $USERMGT_SETTINGS
 Export package requirements list
 
 ```sh
-pip freeze > requeriments.txt
+$ pip freeze > requeriments.txt
 ```
 
 Install package requirements list
 
 ```sh
-pip install -r requeriments.txt
+$ pip install -r requeriments.txt
 ```
 
 Run test with pytest
 
 ```sh
-py.test
+$ py.test
 ```
 
 Run test with pytest and export unit tests xml format
 
 ```sh
-py.test --junitxml=python-tests.xml
+$ py.test --junitxml=python-tests.xml
 ```
 
 ### References
