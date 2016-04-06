@@ -30,8 +30,9 @@ virtualenv python2.6
 #virtualenv -p /usr/bin/python2.6 <path/to/new/virtualenv/>
 . python2.6/bin/activate
 
-following dependencies are in the requirements file you can install one by one, or run the
-command: pip install -r requirements
+
+Following dependencies are in the requirements file you can install one by one, or run the
+command: pip install -r requirements. In a project, you must provide the requeriments file to your developing team
 pip install xmlrunner
 pip install unittest2
 pip install pytest
