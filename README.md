@@ -6,9 +6,9 @@ This is the repository of source code for the practices of the operating systems
 
 The following topics are study in the course:
 * Virtualization
-* Basic Linux Commands
-* [System Calls](https://github.com/ICESI/operating-systems/tree/master/system_calls)
-* [Process Syncronization](https://github.com/ICESI/operating-systems/tree/master/process_syncronization)
+* [Basic Linux Commands](https://github.com/ICESI/so-basics)
+* [System Calls](https://github.com/ICESI/so-syscalls)
+* [Process Syncronization](https://github.com/ICESI/so-synchronization)
 * Daemons
-* [Microservices](https://github.com/ICESI/operating-systems/tree/master/microservices)
+* [Microservices](https://github.com/ICESI/so-microservices)
 
